@@ -30,7 +30,7 @@ export class App {
         this.routePrv.clienteRoutes.routes(this.app)
         this.routePrv.ventaRoutes.routes(this.app)
         this.routePrv.tipoproductoRutes.routes(this.app)
-        this.routePrv.tipoproductoRutes.routes(this.app)
+        this.routePrv.productoRutes.routes(this.app)
         this.routePrv.product_ventasRoutes.routes(this.app)
     }
 
